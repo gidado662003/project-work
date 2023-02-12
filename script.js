@@ -4,7 +4,7 @@ let body = document.querySelector(".left-section");
 let main = document.querySelector(".row")
 // meun.style.height = "0px"
 function toggleMenu(){
-    if (meun.style.height == "0px"){
+    if (meun.style.height !== "300px"){
         meun.style.height  = "300px";
         main.style.height = "700px"	;
         body.style.marginTop = "190px"
